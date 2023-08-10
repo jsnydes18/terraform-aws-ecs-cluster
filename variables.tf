@@ -5,6 +5,7 @@ variable "project_name" {
 }
 
 variable "environment" {
+  default     = "development"
   description = "Deployment environment of the resourece"
   type        = string
 }
